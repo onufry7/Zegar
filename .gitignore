@@ -1,0 +1,7 @@
+# Ignoruj plik z kluczem API
+api_key.json
+.htaccess
+
+# Ignoruj pliki systemowe
+.DS_Store
+Thumbs.db

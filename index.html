@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl-PL">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="scripts.js"></script>
+	<title>Zegar</title>
+</head>
+
+<body>
+	<main>
+		<div id="clock">
+			<div class="weather" data-info="">
+				<img src="img/undefined-weather.png" alt="Pogoda">
+			</div>
+			<div class="config">
+				<div class="mute">
+					<label for="volume"> &#128365; </label>
+					<span>OFF <input type="range" id="volume" name="volume" min="0" max="1" value="0"> ON</span>
+				</div>
+				<div class="sound">
+					<label for="sound"> &#9839; &#9835; &#9836; </label>
+					<input type="range" id="sound" name="sound" min="1" max="7">
+				</div>
+			</div>
+			<div class="clock-roof box-shadow-3d">
+				<div class="carousel-box">
+					<div class="carousel-gate"></div>
+					<div class="carousel">
+						<span> &#127774; </span>
+						<span> &#127751; </span>
+						<span> &#127771; </span>
+						<span> &#127747; </span>
+					</div>
+				</div>
+			</div>
+			<div class="handle"></div>
+			<div class="clock-box box-shadow-3d">
+				<div class="clock-border"></div>
+				<div class="clock-face">
+					<div class="hour"></div>
+					<div class="hour"></div>
+					<div class="hour"></div>
+					<div class="hour"></div>
+					<div class="hour"></div>
+					<div class="hour"></div>
+					<span class="label">SZYMI</span>
+					<span class="hand seconds"></span>
+					<span class="hand minutes"></span>
+					<span class="hand hours"></span>
+				</div>
+			</div>
+			<span class="brand">Szymon Burnejko &copy; 2020</span>
+			<div class="pendulum-box box-shadow-3d">
+				<div class="pendulum-border"></div>
+				<div class="pendulum"></div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
